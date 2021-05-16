@@ -14,7 +14,7 @@ set datetime= %date% %time%
 
 
 REM --- MAKE A BACKUP TO DISK
-REM --- THE / q OPTION ALLOWS NOT TO SHOW FILE NAMES WHEN COPYING
+REM --- THERE IS AN OPTION, / q, WHICH ALLOWS TO HIDE THE NAMES OF THE FILES WHILE THEY ARE COPIED
 
 xcopy /c /d /e /h /i /r /y /k %origin% %destination% >> %log%
 echo File backup finished - %datetime% >> %log%
