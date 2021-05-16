@@ -20,7 +20,7 @@ After that, in Windows there is a utility, **Task Scheduler** which provides the
 Let's put it all together and proceed as follows:
 1. create the necessary paths described in the [batch file](https://github.com/DannyOnkies/BackupUsbKey/blob/main/BackupUsbKey.bat)
 2. make sure that the letter of the USB stick does not change
-3. open the Taskschd.msc component (from C: \ Windows \ system32) or from the box with the magnifier in the bottom left bar.
+3. open the **Taskschd.msc** component (from **`C:\Windows\system32`**) or from the box with the magnifier in the bottom left bar.
 4. follow one of the many guides to create a task. [This](https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10) for example.
 
 ![create-basic-tasks-scheduler-windows-10](https://user-images.githubusercontent.com/80686975/118393176-faaf8800-b63d-11eb-91ff-cbaf1298e74c.jpg)
